@@ -32,7 +32,7 @@ int main(int argc, char *argv[]) {
     //Storage for the temperature
     double T[nx][nx];
 
-    printf("nx: %15.8f \npi: %15.8f \ndomainLength: %15.8f \ndx: %15.8f \nkappa: %15.8f \nendtime: %15.8f \ndt: %15.8f \n", nx, pi, domainLength, dx, kappa, endtime, dt);    
+    printf("nx: %i \npi: %15.8f \ndomainLength: %15.8f \ndx: %15.8f \nkappa: %15.8f \nendtime: %15.8f \ndt: %15.8f \n", nx, pi, domainLength, dx, kappa, endtime, dt);    
     
     return 0;
 }
